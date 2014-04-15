@@ -1,6 +1,6 @@
-CRAXBox
+CRAX Vagrant
 =======
-CRAXBox is a vagrant environment for developing and testing CRAX.
+This repo provides a vagrant environment for developing and testing CRAX.
 
 Prerequisite
 ------------
@@ -16,18 +16,18 @@ $ pacman -S vagrant
 
 Usage
 -----
-### Clone CRAXBox repository
+### Clone this repository
 ```
-$ git clone https://github.com/SQLab/CRAXBox.git
+$ git clone https://github.com/SQLab/crax-vagrant.git
 ```
 
 ### Fire up testing environment
 ```
-$ cd CRAXBox
+$ cd crax-vagrant
 $ vagrant up
 ```
 
-### Access CRAXBox
+### Access the virtual machine
 ```
 $ vagrant ssh
 ```
@@ -38,6 +38,6 @@ $ ssh -p 2222 -l vagrant localhost
 
 ### Build CRAX
 ```
-vagrant@CRAXBox:~$ cd ~/CRAX/build/ 
-vagrant@CRAXBox:~$ make -f ../CRAX/Makefile
+vagrant@crax:~$ cd ~/CRAX/build/
+vagrant@crax:~$ make -f ../CRAX/Makefile
 ```
